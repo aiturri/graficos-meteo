@@ -25,7 +25,9 @@ dataframe = pd.read_sql("""
 dataframe['LogTime'] = dataframe['LogTime'].apply(splitter)
 
 print(dataframe)
-print (dataframe.dtypes)
+
+#Imprimo para saber los tipos en el dataframe
+#print (dataframe.dtypes)
 
 #Guardo a un archivo
 #dataframe.to_csv('log.csv')
